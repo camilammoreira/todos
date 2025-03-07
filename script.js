@@ -27,3 +27,11 @@ addForm.addEventListener("submit", e => {
         addForm.reset(); // Reset all input filed in forms
     }
 });
+
+list.addEventListener("click", e => {
+    // Checks if the element I has a delete class
+    // Useful to add features, like edit, in future
+    if (e.target.classList.contains("delete")) {
+        e.target.parentElement.remove();
+    }
+});
