@@ -30,3 +30,7 @@ input[type=text]::placeholder {
 .delete {
     cursor: pointer;
 }
+
+.hide {
+    display: none !important;
+}
